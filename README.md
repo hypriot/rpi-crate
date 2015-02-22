@@ -1,4 +1,4 @@
-# rpi-node
+# rpi-crate
 
 [![dockeri.co](http://dockeri.co/image/hypriot/rpi-crate)](https://registry.hub.docker.com/u/hypriot/rpi-crate/)
 
