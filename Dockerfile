@@ -1,4 +1,3 @@
-
 # Pull base image
 FROM hypriot/rpi-java:jre-1.7.0
 MAINTAINER Dieter Reuter <dieter@hypriot.com>
