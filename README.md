@@ -1,7 +1,5 @@
 # rpi-crate
 
-[![dockeri.co](http://dockeri.co/image/hypriot/rpi-crate)](https://registry.hub.docker.com/u/hypriot/rpi-crate/)
-
 Raspberry Pi compatible Docker Image with [Crate.io](https://crate.io)
 
 Based upon original repo https://github.com/crate/docker-crate
