@@ -7,7 +7,7 @@ publish:
     username: $$DOCKER_USER
     password: $$DOCKER_PASS
     email: $$DOCKER_EMAIL
-    repo: hypriot/rpi-haproxy
+    repo: hypriot/rpi-crate
     tag: 
       - latest
       - "0.54.0"
