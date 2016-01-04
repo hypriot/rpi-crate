@@ -1,5 +1,5 @@
 # Pull base image
-FROM hypriot/rpi-java:jre-1.7.0
+FROM hypriot/rpi-java:1.8.0
 MAINTAINER Dieter Reuter <dieter@hypriot.com>
 
 # Install dependencies
@@ -8,7 +8,7 @@ RUN apt-get update && apt-get install -y \
     --no-install-recommends && \
     rm -rf /var/lib/apt/lists/*
 
-ENV CRATE_VERSION 0.54.0
+ENV CRATE_VERSION 0.54.1
 RUN mkdir -p /crate && \
   wget -nv -O - "https://cdn.crate.io/downloads/releases/crate-$CRATE_VERSION.tar.gz" \
   | tar -xzC /crate --strip-components=1
