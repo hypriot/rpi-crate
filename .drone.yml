@@ -10,7 +10,7 @@ publish:
     repo: hypriot/rpi-crate
     tag: 
       - latest
-      - "0.47.4-java-8"
+      - "0.54.1"
 
 notify:
   slack:
