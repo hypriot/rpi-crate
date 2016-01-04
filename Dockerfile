@@ -10,7 +10,7 @@ RUN apt-get update && apt-get install -y \
 
 ENV CRATE_VERSION 0.54.1
 RUN mkdir -p /crate && \
-  wget -nv -O - "https://cdn.crate.io/downloads/releases/crate-$CRATE_VERSION.tar.gz" \
+  wget -nv –no-check-certificate -O - "https://cdn.crate.io/downloads/releases/crate-$CRATE_VERSION.tar.gz" \
   | tar -xzC /crate --strip-components=1
 
 ENV PATH /crate/bin:$PATH
