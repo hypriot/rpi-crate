@@ -10,7 +10,7 @@ Run all the commands from within the project root directory.
 - [Source Project Page](https://github.com/hypriot)
 - [Source Repository](https://github.com/hypriot/rpi-crate)
 - [Dockerfile](https://github.com/hypriot/rpi-crate/blob/master/Dockerfile)
-- [DockerHub](https://registry.hub.docker.com/u/hypriot/rpi-crate/)
+- [DockerHub](https://hub.docker.com/u/hypriot/rpi-crate/)
 
 
 #### Build the Docker Image
@@ -45,5 +45,6 @@ open http://<ipaddress>:4200/admin
 ```bash
 make run2
 ```
+
 
 
